@@ -41,15 +41,14 @@
     <section id="about-me" class="container">
       <div>
         <img
-          src="/html_finalprojimages/undraw_professional-woman-avatar_ivds.svg"
-          class="profile_image" alt="professional woman avatar"
+          src="/html_finalprojimages/undraw_freelancer_vibs.svg"
+          class="profile_image"
+          alt="professional woman avatar"
         />
       </div>
 
       <div>
-        <h1>
-          Hi, I'm Ana!
-        </h1>
+        <h1>Hi, I'm Ana!</h1>
         <p id="about-me-text">
           I am a software engineer with hands-on experience in full-stack
           development, embedded systems, and user-centered design. I’ve worked
@@ -74,33 +73,39 @@
 
       <div class="all_skills">
         <div class="skill">
-          <img src="html_finalprojimages/icons8-java-64.png" alt="java icon"/>
+          <img src="html_finalprojimages/icons8-java-64.png" alt="java icon" />
           <h6>JAVA</h6>
           <p>2 years experience</p>
         </div>
 
         <div class="skill">
-          <img src="html_finalprojimages/icons8-javascript-logo-64.png" alt="javascript icon"/>
+          <img
+            src="html_finalprojimages/icons8-javascript-logo-64.png"
+            alt="javascript icon"
+          />
           <h6>JavaScript</h6>
           <p>1 year experience</p>
         </div>
 
         <div class="skill">
-          <img src="html_finalprojimages/icons8-html-64.png" alt="html icon"/>
+          <img src="html_finalprojimages/icons8-html-64.png" alt="html icon" />
           <h6>HTML</h6>
-          <p>1 years experience</p>
+          <p>1 year experience</p>
         </div>
 
         <div class="skill">
-          <img src="html_finalprojimages/icons8-css-64.png" alt="css icon"/>
+          <img src="html_finalprojimages/icons8-css-64.png" alt="css icon" />
           <h6>CSS</h6>
-          <p>1 years experience</p>
+          <p>1 year experience</p>
         </div>
 
         <div class="skill">
-          <img src="html_finalprojimages/icons8-react-64.png" alt="react icon"/>
+          <img
+            src="html_finalprojimages/icons8-react-64.png"
+            alt="react icon"
+          />
           <h6>React</h6>
-          <p>1 years experience</p>
+          <p>1 year experience</p>
         </div>
 
         <!-- Add more skills here -->
@@ -114,37 +119,54 @@
 
       <div id="projects-container" class="projects-container">
         <div class="project-card">
-          <h3>Chatbot</h3>
+          <div>
+            <img
+              src="/html_finalprojimages/undraw_amusement-park_j8fe.svg"
+              class="project_image"
+              alt="amusement park"
+            />
+          </div>
+          <h3>Amusement Park App</h3>
           <ul>
             <li>
-              Developed a secure website integrated with chatbot for an
-              automobile client using HTML, CSS, JavaScript and IBM Watson
-              Assistant
+              Designed and developed a desktop application in Java using Swing
+              for a theme park planning system.
+            </li>
+            <li>
+              Developed a desktop application in Java using Swing for a user-friendly theme park planning system.
+            </li>
+            <li>
+              Implemented user authentication, including sign-in, registration, credential verification, and input validation.
+            </li>
+            <li>
+              Built features for ticket and pass purchasing, creating a smooth and efficient user experience.
             </li>
           </ul>
         </div>
         <hr />
         <div class="project-card">
-          <h3>Sentiment Analyzer</h3>
+          <div>
+            <img
+              src="/html_finalprojimages/undraw_maker-launch_fwzi.svg"
+              class="project_image"
+              alt="rocket launch"
+            />
+          </div>
+          <h3>Psyche Mission Timeline</h3>
           <ul>
             <li>
-              Developed and deployed a sentiment analyzer for the box reviews
-              section of an eCommerce platform using IBM NLU
+              Designed and developed an Augmented Reality Timeline website for NASA’s Psyche Mission Visitor Center.
+            </li>
+            <li>
+              Utilized React, Chakra UI, and WebGL to build an interactive front-end experience.
+            </li>
+            <li>Implemented backend functionality using TypeScript and Node.js to support dynamic content rendering.
+            </li>
+            <li>
+              Modeled and optimized 3D objects for real-time rendering within the AR experience.
             </li>
           </ul>
         </div>
-        <hr />
-        <div class="project-card">
-          <h3>Fashion Website</h3>
-          <ul>
-            <li>
-              Created a styled multi-page website for a new player in the
-              fashion industry and integrated it with a shopping cart, using
-              stripe for payment gateway
-            </li>
-          </ul>
-        </div>
-      </div>
     </section>
     <div style="clear: both"></div>
 
@@ -185,7 +207,7 @@
       <div class="flex_center">
         <fieldset>
           <legend class="introduction">Leave a Recommendation</legend>
-          <input type="text" placeholder="Name " /> <br />
+          <input type="text" placeholder="Name "/> <br />
           <textarea
             id="new_recommendation"
             cols="500"
@@ -203,14 +225,21 @@
 
     <div class="iconbutton">
       <a href="#home">
-        <img class="iconbutton" src="/html_finalprojimages//home.png" alt="up arrow button">
+        <img
+          class="iconbutton"
+          src="/html_finalprojimages/icons8-up-arrow-100.png"
+          alt="up arrow button"
+        />
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg" alt="checkmark sign"/>
-      <h3><!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
+      <img
+        src="html_finalprojimages/checkmark--outline.svg"
+        alt="checkmark sign"
+      />
+      <h3>Thanks for leaving a recomendation!</h3>
+      <button onclick="showPopup(true)">Ok</button>
     </div>
     <footer></footer>
   </body>
