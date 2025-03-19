@@ -28,12 +28,10 @@ body {
 .topmenu {
   color: rgb(255, 255, 255);
   margin: 10px;
-  padding: 20px;
   font-size: 26px;
   font-weight: normal;
   text-decoration: underline;
   font-family: Oswald, sans-serif;
-
 }
 
 .topmenu:hover {
@@ -274,6 +272,7 @@ h2 {
   right: 3%;
   bottom: 3%;
   cursor: pointer;
+  padding: 2px;
 }
 
 /* Form Pop-up */
@@ -297,8 +296,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid var(--secondary-text-color);
+  color: var(--secondary-color);
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -311,8 +310,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid var(--secondary-text-color);
+  color: var(--secondary-text-color);
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -343,8 +342,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid var(--secondary-text-color);
+  color: var(--secondary-text-color);
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -355,8 +354,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: var(--main-color);
+  border: 1px solid var(--secondary-text-color);
   color: #fff;
   display: block;
   border-radius: 6px;
